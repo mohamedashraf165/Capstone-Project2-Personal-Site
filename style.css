@@ -1,0 +1,91 @@
+body {
+    background-color: #123458;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin: 0;
+}
+
+.first-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #578FCA;
+    background: url(./images/black\ background.jpg);
+}
+
+
+h1 {
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #D4C9BE;
+    font-weight: normal;
+}
+
+p, h3{
+    color: #D4C9BE;
+}
+
+.hero {
+    color: white;
+}
+
+.second-container {
+    margin: 100px 0;
+}
+
+.Profile-img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: dotted #D4C9BE 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto; 
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+     h3 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+}
+
+.alpha-project {
+   border: dotted black 6px;
+   padding: 0.5rem;
+    margin: 100px auto;
+    margin-bottom: 0;
+}
+
+.beta-project {
+    border: dotted black 6px;
+   padding: 0.5rem;
+    margin: 100px auto;
+    margin-bottom: 0;
+}
+
+.third-container {
+    background-color: #F1EFEC;
+}
+
+footer {
+    padding: 10px;
+    font-size: 1rem;
+}
